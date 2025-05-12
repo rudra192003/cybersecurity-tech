@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+    <style>
+        /* Basic reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        /* Header Section */
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 40px 0;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 3em;
+        }
+        header p {
+            font-size: 1.5em;
+            margin-top: 10px;
+        }
+
+        /* Section Styling */
+        section {
+            padding: 40px;
+            margin: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        section#about {
+            background-color: #f1f1f1;
+        }
+
+        section h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        section ul {
+            list-style-type: none;
+        }
+
+        section ul li {
+            padding: 10px 0;
+            font-size: 1.2em;
+        }
+
+        section ul li strong {
+            color: #007BFF;
+        }
+
+        /* Skills Section */
+        #skills ul {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        #skills ul li {
+            width: 48%;
+            padding: 10px;
+            margin: 10px 1%;
+            background-color: #eef1f5;
+            border-radius: 5px;
+            font-size: 1.1em;
+        }
+
+        /* Footer Section */
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 15px;
+            text-align: center;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 1em;
+        }
+
+        /* Links */
+        a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            section {
+                margin: 10px;
+                padding: 20px;
+            }
+
+            #skills ul li {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Cyber Security Portfolio</h1>
+        <p>Hi, I'm <strong>Pushpender Chhikara</strong>, a Cyber Security Enthusiast.</p>
+    </header>
+
+    <!-- About Me Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I'm currently studying the BTech-MTech Integrated CSE Cyber Security program at National Forensic Sciences University. I have a strong command of C language, digital forensics, and OSINT tools. I've completed an internship at the Indian Cyber Crime Coordination Center, New Delhi, where I worked on real-world cybercrime cases and projects. I am passionate about penetration testing, network security, and malware analysis. I have a strong command of networking principles and have worked with several OSINT tools to gather and analyze publicly available information.</p>
+    </section>
+
+    <!-- Academic Record Section -->
+    <section id="academic-record">
+        <h2>Academic Record</h2>
+        <p>I've maintained a strong academic performance throughout my BTech-MTech Integrated CSE Cyber Security program, consistently achieving good grades every semester. My dedication to learning and developing practical skills is evident through my academic excellence.</p>
+        <ul>
+            <li><strong>Semester 1:</strong> [8.20]</li>
+            <li><strong>Semester 2:</strong> [8.40]</li>
+            <li><strong>Semester 3:</strong> [8.55]</li>
+            <li><strong>Semester 4:</strong> [9.05]</li>
+            <li><strong>Semester 5:</strong> [8.50]</li>
+            <li><strong>Semester 6:</strong> [9.30]</li>
+            <li><strong>Semester 7:</strong> [9.20]</li>
+            <li><strong>Semester 8:</strong> [not declared yet]</li>
+        </ul>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li><strong>Penetration Testing of Web Applications</strong>: Conducting security audits and vulnerability assessments for websites and web applications.</li>
+            <li><strong>Network Security Audits</strong>: Analyzing network configurations and traffic to detect vulnerabilities and unauthorized access points.</li>
+            <li><strong>Malware Analysis</strong>: Investigating malicious software to understand its behavior, origin, and impact on systems.</li>
+            <li><strong>JPEG Compression Algorithm</strong>: Developed an AI/ML-based system using CNN to detect if an image has been compressed or is uncompressed, without relying on file extensions.</li>
+            <li><strong>Dynamic Traffic Management System</strong>: Designed an AI/ML-based dynamic traffic system with a smart monitoring dashboard.</li>
+        </ul>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li><strong>Programming</strong>: C Language, Python, Bash</li>
+            <li><strong>Digital Forensics</strong>: Data recovery, image analysis, file carving, and analysis of file systems.</li>
+            <li><strong>Network Security</strong>: Wireshark, Nmap, Metasploit, Burp Suite</li>
+            <li><strong>AI/ML</strong>: Machine Learning models, CNN for image analysis, Scikit-Learn</li>
+            <li><strong>OSINT Tools</strong>: Maltego, Shodan, TheHarvester, FOCA, OSForensic Triage Certification</li>
+            <li><strong>Incident Response & Threat Hunting</strong>: Experience with detecting and mitigating security incidents and using threat intelligence.</li>
+        </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>If you'd like to collaborate or have any inquiries, feel free to contact me at <a href="mailto:chhikarapushpender@gmail.com">chhikarapushpender@gmail.com</a>.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Pushpender Chhikara | All Rights Reserved</p>
+    </footer>
+</body>
+</html>
